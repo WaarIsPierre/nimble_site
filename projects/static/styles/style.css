@@ -8,6 +8,7 @@
 
 a.navbar-brand {
   color: #333;
+  margin-left: 0;
 }
 /* ul {
   position: absolute;
