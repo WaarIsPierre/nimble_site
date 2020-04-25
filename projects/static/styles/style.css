@@ -7,7 +7,27 @@ a.navbar-brand {
 }
 
 footer {
-  height: 100px;
+  position: relative;
+  height: 50px;
   background-color: #649d66;
   text-align: center;
+  margin-top: 150px;
+  text
+}
+
+#bottom {
+  position: relative;
+  bottom:  0;
+}
+
+.navbar {
+  background-color: #649d66;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #f2a51a;
+}
+
+.btn-primary {
+  background-color: #f2a51a;
 }
