@@ -3,10 +3,11 @@
 }
 
 a.navbar-brand {
-
+  font-size: 2em;
 }
 
 footer {
   height: 100px;
   background-color: #649d66;
+  text-align: center;
 }
