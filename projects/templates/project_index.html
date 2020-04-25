@@ -5,13 +5,13 @@
   <h1>Projects</h1>
   <div class="row">
      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-
+{% for project in projects %}
        <div class="carousel-inner">
-         {% for project in projects %}
+
          <div class="carousel-item active">
            <img src="{% static project.image %}" class="d-block w-100">
          </div>
-         {% endfor %}
+
        </div>
        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -21,7 +21,7 @@
          <span class="carousel-control-next-icon" aria-hidden="true"></span>
          <span class="sr-only">Next</span>
        </a>
-
+{% enfor %}
      </div>
 
  </div>
