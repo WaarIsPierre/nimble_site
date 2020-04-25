@@ -2,53 +2,6 @@
   font-family: 'Nunito', sans-serif;
 }
 
-.navbar {
-  background-color: #a9c45e;
-}
-
 a.navbar-brand {
-  color: #333;
-  margin-left: 0;
-}
-/* ul {
-  position: absolute;
-  right: 80;
-} */
-
-.nav-item {
-  color: #fff;
-}
-
-.navbar-dark .navbar-brand {
-  color: #fff;
-  font-size: 1.9em;
-  margin-left: 20px;
-}
-
-footer {
-  height: 100px;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 100px;
-  background-color: #a9c45e;
-  padding: 20px;
-}
-
-#title {
-  margin-top: 10px;
-  font-size: 1.4em;
-}
-
-a.btn {
-  background-color: #e2683c;
-  border: 0;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-color: rgba(255,255,255,.5);
-text-align: center;
-}
-
-button.navbar-toggler {
-  color: #fff;
+  background-color: #333;
 }
