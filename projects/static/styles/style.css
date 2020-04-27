@@ -1,15 +1,12 @@
 * {
   font-family: 'Nunito', sans-serif;
-  background-color: #fff;
+  background-color: #f3f2ee;
 }
 
 a.navbar-brand {
   font-size: 2em;
 }
 
-.navbar-light .navbar-brand {
-    color: #fff;
-}
 
 footer {
   position: relative;
@@ -31,10 +28,14 @@ footer {
 }
 
 .navbar-light .navbar-toggler {
-  background-color: #A7226F;
+  background-color: #2E9599;
 }
 
 a.btn {
   background-color: #f2a51a;
   border-color:  #f2a51a;
+}
+
+btn.primary:hover {
+  color: #f3f2ee;
 }
