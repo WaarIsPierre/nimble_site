@@ -3,10 +3,6 @@
 
 }
 
-body {
-  background-color: #f3f2ee;
-}
-
 a.navbar-brand {
   font-size: 2em;
 }
@@ -29,6 +25,9 @@ footer {
 .navbar {
   /* background-color: #649d66; */
   background-color: #A7226F;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: #fff;
 }
 
 .navbar-light .navbar-toggler {
