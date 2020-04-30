@@ -1,15 +1,17 @@
 * {
   font-family: 'Nunito', sans-serif;
+
 }
 
 a.navbar-brand {
   font-size: 2em;
 }
 
+
 footer {
   position: relative;
   height: 50px;
-  background-color: #649d66;
+  background-color: #A7226F;
   text-align: center;
   margin-top: 150px;
   text
@@ -22,14 +24,34 @@ footer {
 
 .navbar {
   /* background-color: #649d66; */
+  color: #fff;
   background-color: #A7226F;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
-.navbar-light .navbar-toggler {
-  background-color: #f2a51a;
+
+.navbar-dark .navbar-toggler {
+  background-color: #2E9599;
 }
 
 a.btn {
   background-color: #f2a51a;
   border-color:  #f2a51a;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+btn.primary:hover {
+  color: #f3f2ee;
+}
+
+.home {
+  color: #333;
+}
+
+a.nav-link:hover {
+  color: #fff;
 }
